@@ -8,5 +8,4 @@ import { environment as env } from 'src/environments/environment';
 })
 export class AppComponent {
   title = 'git-hooks-test';
-  flag = env.notInProd;
 }
