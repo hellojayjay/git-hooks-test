@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build --prod",
     "test": "ng test",
+    "test:pre-push":"ng test --karmaConfig=karma-pre-push.conf.js",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
